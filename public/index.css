@@ -1,0 +1,84 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
+
+html,
+body {
+  background-color: #323437;
+  color: #979797;
+  padding-top: 10vh;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #d4b511;
+}
+
+/* h1 a {
+} */
+main {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+
+main .legend {
+  text-align: center;
+}
+main .legend h1 {
+  font-weight: bold;
+}
+main .legend h3 {
+  color: #d4b511;
+  font-size: 58.6738px;
+  font-style: normal;
+}
+
+main .bottom-arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+main .bottom-arrow i {
+  font-size: 2.5em;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+footer .links > * {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 7px;
+  color: #979797;
+  transition: all ease-in-out 100ms;
+}
+footer .links > *:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+footer .links .bi {
+  font-size: 1.3rem;
+}
